@@ -21,6 +21,11 @@ add_action('wp_enqueue_scripts', 'register_scripts');
 
 ?> 
 
+<!--[if lt IE 9]>
+<script src="<?php bloginfo('template_directory'); ?>/js/html5shiv.js"></script>
+<script src="<?php bloginfo('template_directory'); ?>/js/html5shiv-printshiv.js"></script>
+<![endif]-->
+
 <?php wp_head(); ?>
 
 </head>

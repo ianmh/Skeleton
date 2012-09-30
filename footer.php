@@ -1,5 +1,7 @@
 	<footer id="footer">
-	Footer
+		<?php if ( dynamic_sidebar( 'footer' ) ) : else : ?>
+		Static footer content
+		<?php endif; ?>
 	</footer>
 </div><!-- End .container -->
 

@@ -79,8 +79,8 @@ header#header {
 	margin:auto;
 	color:#666666;
 }
-article ul, article ol, aside ul, aside ol {
-	margin:0 20px;
+article ul, article ol, aside ul, aside ol, footer ul, footer ol {
+	margin:0 0 0 20px;
 }
 small {
 	font-size:11px;
