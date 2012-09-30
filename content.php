@@ -21,11 +21,11 @@
 
 <?php elseif( is_search() ) : ?>
 
-	<section>
+	<article>
 	  <h2 id="post-<?php the_ID(); ?>" <?php post_class(); ?>><a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title(); ?>"><?php the_title(); ?></a></h2>
 	  <small><?php _e('Published on: ', 'skeleton'); ?><?php the_time('F jS, Y') ?></small>
 	  <?php the_excerpt(); ?>
 	  <p class="more"><a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title(); ?>"><?php _e('Read more', 'skeleton'); ?></a></p>
-	</section>
+	</article>
 	
 <?php endif; ?>
