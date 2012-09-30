@@ -26,6 +26,7 @@ add_action('wp_enqueue_scripts', 'register_scripts');
 <script src="<?php bloginfo('template_directory'); ?>/js/html5shiv-printshiv.js"></script>
 <![endif]-->
 
+<?php if ( is_singular() ) wp_enqueue_script( 'comment-reply' ); ?>
 <?php wp_head(); ?>
 
 </head>
