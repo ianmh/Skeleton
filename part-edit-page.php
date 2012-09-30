@@ -1,0 +1,1 @@
+<?php edit_post_link( __( 'Edit Page', 'skeleton' ), '<footer><small class="edit-link">', '</small></footer>' ); ?>
